@@ -1,23 +1,72 @@
-const fallbackProjects = [
+const featuredProjects = [
   {
-    name: 'ADMINCRUD',
-    description: 'Admin panel and CRUD management system for data operations and content management.',
-    language: 'CSS',
-    html_url: 'https://github.com/SaraSa3ed/ADMINCRUD',
+    name: 'cafe-restaurant-hub',
+    description: 'Restaurant management platform with menu systems, order tracking, and business operations.',
+    language: 'TypeScript',
+    html_url: 'https://github.com/MahmoudSaberbrisha/cafe-restaurant-hub',
+    homepage: ''
+  },
+  {
+    name: 'motor-match-system',
+    description: 'Vehicle matching and automotive services platform designed for smart filtering and user flow optimization.',
+    language: 'TypeScript',
+    html_url: 'https://github.com/MahmoudSaberbrisha/motor-match-system',
+    homepage: ''
+  },
+  {
+    name: 'car-branch-manager',
+    description: 'Multi-branch dealership management solution for inventory, operations, and branch coordination.',
+    language: 'TypeScript',
+    html_url: 'https://github.com/MahmoudSaberbrisha/car-branch-manager',
+    homepage: ''
+  },
+  {
+    name: 'sig-auto-showcase',
+    description: 'Premium automotive showcase built with modern frontend patterns and interactive presentation layers.',
+    language: 'TypeScript',
+    html_url: 'https://github.com/MahmoudSaberbrisha/sig-auto-showcase',
+    homepage: ''
+  },
+  {
+    name: 'dr-white-api',
+    description: 'Healthcare backend API focused on service logic, business workflows, and data operations.',
+    language: 'JavaScript',
+    html_url: 'https://github.com/MahmoudSaberbrisha/dr-white-api',
+    homepage: ''
+  },
+  {
+    name: 'dr-white-ui',
+    description: 'Modern healthcare user interface for clinical and administrative digital experiences.',
+    language: 'TypeScript',
+    html_url: 'https://github.com/MahmoudSaberbrisha/dr-white-ui',
+    homepage: ''
+  },
+  {
+    name: 'onemillion',
+    description: 'Large-scale product and data platform built for growth, analytics, and scalable business workflows.',
+    language: 'TypeScript',
+    html_url: 'https://github.com/MahmoudSaberbrisha/onemillion',
     homepage: ''
   },
   {
     name: 'campany',
-    description: 'Business and company landing page with polished UI and service presentation.',
+    description: 'Business and company management platform with polished interfaces and operational dashboards.',
     language: 'TypeScript',
     html_url: 'https://github.com/SaraSa3ed/campany',
     homepage: ''
   },
   {
     name: 'clinic',
-    description: 'Clinic management interface and healthcare workflow dashboard for patient operations.',
+    description: 'Clinic management system designed for patient operations, appointment flow, and healthcare administration.',
     language: 'TypeScript',
     html_url: 'https://github.com/SaraSa3ed/clinic',
+    homepage: ''
+  },
+  {
+    name: 'ADMINCRUD',
+    description: 'Admin panel and CRUD management platform for content and business data operations.',
+    language: 'CSS',
+    html_url: 'https://github.com/SaraSa3ed/ADMINCRUD',
     homepage: ''
   }
 ];
@@ -25,6 +74,7 @@ const fallbackProjects = [
 const projectGrid = document.getElementById('projectsGrid');
 
 function renderProjects(projects) {
+  if (!projectGrid) return;
   projectGrid.innerHTML = '';
 
   projects.forEach((project) => {
@@ -92,24 +142,25 @@ async function loadProjects() {
       throw new Error('GitHub API failure');
     }
 
-    const repos = data
+    const apiProjects = data
       .filter((repo) => !repo.fork && repo.name !== 'SaraSa3ed')
-      .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
-
-    const finalProjects = repos.length ? repos : fallbackProjects;
-
-    renderProjects(
-      finalProjects.map((repo) => ({
+      .map((repo) => ({
         name: repo.name,
-        description:
-          repo.description || 'A project focused on user experience, architecture, and scalable development.',
+        description: repo.description || 'A project focused on user experience, architecture, and scalable development.',
         language: repo.language || 'Code',
         html_url: repo.html_url,
         homepage: repo.homepage || ''
       }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    const mergedProjects = [...featuredProjects, ...apiProjects].filter(
+      (project, index, array) =>
+        array.findIndex((item) => item.name.toLowerCase() === project.name.toLowerCase()) === index
     );
+
+    renderProjects(mergedProjects);
   } catch (error) {
-    renderProjects(fallbackProjects);
+    renderProjects(featuredProjects);
   }
 }
 

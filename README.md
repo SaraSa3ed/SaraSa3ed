@@ -10,7 +10,7 @@
   [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9C27B0?style=social&logo=firefox)](https://yourportfolio.com)
   [![Email](https://img.shields.io/badge/Email-sara%40example.com-EA4335?style=social&logo=gmail)](mailto:sara@example.com)
 
-  <h3>Full Stack Developer | Node.js • React • Python • Flutter</h3>
+  <h3>Full Stack Developer | Node.js • React • Python • Flutter • Dart</h3>
 
   <p>
     I design and build scalable, efficient, and user-centric digital products that solve real problems.
@@ -22,7 +22,7 @@
 
 ## About Me
 
-I'm a passionate Full Stack Developer with a strong focus on building reliable web applications, APIs, and modern digital experiences. My expertise spans frontend engineering, backend architecture, and mobile app development.
+I'm a passionate Full Stack Developer with a strong focus on building reliable web applications, APIs, modern digital experiences, and mobile applications. My expertise spans frontend engineering, backend architecture, and mobile app development using cutting-edge technologies.
 
 I enjoy turning ideas into practical products by combining technical depth, product thinking, and elegant implementation.
 
@@ -30,8 +30,8 @@ I enjoy turning ideas into practical products by combining technical depth, prod
 - Full Stack Development
 - Backend Architecture with Node.js & NestJS
 - Modern Frontend Development with React
+- Mobile App Development with Flutter & Dart
 - API Design and System Integration
-- Flutter-based Mobile App Development
 - Clean Code & Scalable Architecture
 - Product-focused Problem Solving
 
@@ -85,7 +85,7 @@ I enjoy turning ideas into practical products by combining technical depth, prod
 
 ## Featured Projects
 
-### Frontend & Full-Stack Projects (React + TypeScript)
+### 🎯 Frontend & Full-Stack Projects (React + TypeScript)
 
 #### 1. **Café Restaurant Hub** 🍽️
 A comprehensive management system for café restaurants with an intuitive interface.
@@ -167,9 +167,95 @@ Complete healthcare facility management solution.
   - Medical records
   - Staff coordination
 
-### Backend & API Projects
+#### 9. **Frial** 🚀
+Modern mobile application built with Flutter and TypeScript backend integration.
+- **Repository:** [MahmoudSaberbrisha/frial](https://github.com/MahmoudSaberbrisha/frial)
+- **Tech Stack:** TypeScript, Flutter/Dart integration
+- **Features:**
+  - Cross-platform mobile experience
+  - Real-time synchronization
+  - User-friendly interface
+  - Scalable backend
 
-#### 9. **Dr. White API** 🔌
+#### 10. **Raghwa** 🛒
+Advanced e-commerce and retail platform for Saudi market.
+- **Repository:** [MahmoudSaberbrisha/raghwa.sa](https://github.com/MahmoudSaberbrisha/raghwa.sa)
+- **Tech Stack:** TypeScript, React, Node.js
+- **Features:**
+  - Product catalog
+  - Shopping cart
+  - Payment integration
+  - Order management
+  - Customer dashboard
+  - Multi-language support (Arabic/English)
+
+#### 11. **Fit90 App** 💪
+Comprehensive fitness tracking and gym management mobile application.
+- **Repository:** [MahmoudSaberbrisha/fit90app](https://github.com/MahmoudSaberbrisha/fit90app)
+- **Tech Stack:** Flutter, Dart
+- **Features:**
+  - Workout tracking
+  - Fitness plans
+  - Progress monitoring
+  - Real-time notifications
+  - Gym management integration
+
+#### 12. **Elkhlod HR** 👥
+Enterprise HR management mobile application for workforce administration.
+- **Repository:** [MahmoudSaberbrisha/elkhlodhr](https://github.com/MahmoudSaberbrisha/elkhlodhr)
+- **Tech Stack:** Flutter, Dart
+- **Features:**
+  - Employee management
+  - Leave and attendance tracking
+  - HR analytics
+  - Team collaboration
+  - Internal workflows
+
+#### 13. **Poseidon** 🌊
+A dynamic platform focused on system interoperability and modern digital solutions.
+- **Repository:** [MahmoudSaberbrisha/poseidon](https://github.com/MahmoudSaberbrisha/poseidon)
+- **Tech Stack:** TypeScript, JavaScript, Full-Stack architecture
+- **Features:**
+  - Scalable service architecture
+  - Responsive interfaces
+  - Data-driven design
+  - System orchestration
+
+#### 14. **Jalisa** ✨
+Modern digital experience platform with a polished business-oriented design.
+- **Repository:** [MahmoudSaberbrisha/jalisa](https://github.com/MahmoudSaberbrisha/jalisa)
+- **Tech Stack:** TypeScript, React, CSS
+- **Features:**
+  - Brand-friendly interface
+  - Modern user experience
+  - Business workflows
+  - High-quality design system
+
+#### 15. **Alkhloud Finance** 💰
+Financial platform focused on modern digital finance workflows and reporting.
+- **Repository:** [MahmoudSaberbrisha/alkhloudfinance](https://github.com/MahmoudSaberbrisha/alkhloudfinance)
+- **Tech Stack:** TypeScript, React, Financial dashboard UI
+- **Features:**
+  - Finance dashboards
+  - Reporting and analytics
+  - Transaction management
+  - Operational monitoring
+
+#### 16. **Alkhloud HR** 👔
+HR and workforce management system built to support internal operations and team management.
+- **Repository:** [MahmoudSaberbrisha/alkhloudHR](https://github.com/MahmoudSaberbrisha/alkhloudHR)
+- **Tech Stack:** TypeScript, Full-Stack web architecture
+- **Features:**
+  - Employee lifecycle management
+  - Attendance and leave processes
+  - Internal dashboards
+  - Team performance tracking
+
+---
+
+### 🌐 Backend & API Projects
+
+#### 17. **Dr. White API** 🔌
 RESTful backend API for healthcare management system.
 - **Repository:** [MahmoudSaberbrisha/dr-white-api](https://github.com/MahmoudSaberbrisha/dr-white-api)
 - **Tech Stack:** Node.js (54.8%), PowerShell (45.2%)
@@ -187,6 +273,7 @@ RESTful backend API for healthcare management system.
 ### Full Stack Developer
 - Built and improved full-stack applications using React and Node.js
 - Developed scalable backend APIs and system integrations
+- Created cross-platform mobile applications with Flutter
 - Worked closely with design and product teams
 - Improved app reliability, maintainability, and performance
 - Implemented clean architecture patterns and optimized workflows
@@ -197,6 +284,12 @@ RESTful backend API for healthcare management system.
 - Collaborated on production deployments and bug fixes
 - Focused on quality, usability, and maintainability
 
+### Mobile Developer
+- Developed cross-platform mobile applications using Flutter
+- Integrated backend APIs with mobile applications
+- Implemented push notifications and real-time features
+- Optimized mobile app performance and battery usage
+
 ---
 
 ## Core Strengths
@@ -204,25 +297,28 @@ RESTful backend API for healthcare management system.
 - Full Stack Web Development
 - Node.js and NestJS Backend Architecture
 - React Frontend Development
+- Flutter & Dart Mobile Development
 - REST API Design and Integration
-- Mobile App Development with Flutter
 - Database Design and Optimization
+- Cross-Platform Application Development
 - Clean Code and Maintainable Architecture
 - Team Collaboration and Problem Solving
 - System Architecture & Design
 - API Development & Integration
+- Mobile UI/UX Implementation
 
 ---
 
 ## Why Work With Me
 
 I bring a combination of:
-- Technical depth and expertise
-- Product thinking and strategic planning
-- Clean coding practices and best practices
-- Reliable delivery and quality assurance
-- Strong communication and collaboration
-- Proven track record across diverse projects
+- **Technical depth and expertise** across web and mobile platforms
+- **Product thinking and strategic planning** for business success
+- **Clean coding practices** and best practices in all projects
+- **Reliable delivery** with quality assurance standards
+- **Strong communication** and team collaboration skills
+- **Proven track record** across diverse and complex projects
+- **Continuous learning** mindset for emerging technologies
 
 I enjoy building solutions that are not only functional but also elegant, scalable, and easy to maintain.
 
@@ -231,13 +327,15 @@ I enjoy building solutions that are not only functional but also elegant, scalab
 ## Learning & Growth
 
 I am continuously improving my skills in:
-- System Design
+- System Design & Architecture
 - Microservices Architecture
-- Cloud & DevOps
+- Cloud & DevOps (Docker, Kubernetes)
 - Performance Optimization
-- Modern Frontend Patterns
+- Modern Frontend Patterns & State Management
+- Advanced Mobile Development
 - AI & Automation Integration
 - Advanced backend architectures
+- GraphQL and API Design patterns
 
 ---
 
@@ -249,28 +347,30 @@ I'm passionate about:
 - Sharing technical knowledge
 - Learning from real-world engineering challenges
 - Open source contributions
+- Mentoring junior developers
 
 ---
 
 ## Let's Connect
 
-- Email: [sara@example.com](mailto:sara@example.com)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-- GitHub: [github.com/SaraSa3ed](https://github.com/SaraSa3ed)
+- **Email:** [sara@example.com](mailto:sara@example.com)
+- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- **Portfolio:** [yourportfolio.com](https://yourportfolio.com)
+- **GitHub:** [github.com/SaraSa3ed](https://github.com/SaraSa3ed)
 
 ---
 
 ## Development Philosophy
 
-> "Quality software should be clean, useful, scalable, and built with purpose."
+> "Quality software should be clean, useful, scalable, and built with purpose. Every line of code is a promise to maintain and improve it."
 
 I believe in:
-- Writing maintainable code
-- Solving real user problems
-- Building experiences people enjoy using
-- Constantly improving and learning
-- Delivering value with every line of code
+- Writing maintainable and well-documented code
+- Solving real user problems with elegant solutions
+- Building experiences that people enjoy using
+- Constantly improving and embracing new technologies
+- Delivering value with every commit
+- Collaboration and knowledge sharing
 
 ---
 
@@ -279,5 +379,7 @@ I believe in:
   <img src="https://komarev.com/ghpvc/?username=SaraSa3ed&style=flat-square&color=7C3AED" alt="Profile Views" />
 
   <h3>✨ Open to opportunities, collaborations, and impactful projects ✨</h3>
+
+  <p>Let's build something amazing together! 🚀</p>
 
 </div>

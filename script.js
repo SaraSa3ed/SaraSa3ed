@@ -1,21 +1,21 @@
 const fallbackProjects = [
   {
     name: 'ADMINCRUD',
-    description: 'Admin panel and CRUD management system for data operations and content control.',
+    description: 'Admin panel and CRUD management system for data operations and content management.',
     language: 'CSS',
     html_url: 'https://github.com/SaraSa3ed/ADMINCRUD',
     homepage: ''
   },
   {
     name: 'campany',
-    description: 'Modern business website and company landing page with a polished user experience.',
+    description: 'Business and company landing page with polished UI and service presentation.',
     language: 'TypeScript',
     html_url: 'https://github.com/SaraSa3ed/campany',
     homepage: ''
   },
   {
     name: 'clinic',
-    description: 'Healthcare and clinic management interface focused on booking and patient operations.',
+    description: 'Clinic management interface and healthcare workflow dashboard for patient operations.',
     language: 'TypeScript',
     html_url: 'https://github.com/SaraSa3ed/clinic',
     homepage: ''
@@ -29,10 +29,10 @@ function renderProjects(projects) {
 
   projects.forEach((project) => {
     const card = document.createElement('article');
-    card.className = 'project-card';
+    card.className = 'project-card reveal';
 
-    const top = document.createElement('div');
-    top.className = 'project-top';
+    const head = document.createElement('div');
+    head.className = 'project-head';
 
     const title = document.createElement('h3');
     title.textContent = project.name;
@@ -41,12 +41,11 @@ function renderProjects(projects) {
     badge.className = 'project-badge';
     badge.textContent = project.language || 'Project';
 
-    top.appendChild(title);
-    top.appendChild(badge);
+    head.append(title, badge);
 
     const description = document.createElement('p');
     description.textContent =
-      project.description || 'A modern project built with a focus on usability and performance.';
+      project.description || 'A project built with a focus on clean architecture and modern user experience.';
 
     const meta = document.createElement('div');
     meta.className = 'project-meta';
@@ -57,43 +56,40 @@ function renderProjects(projects) {
     const tag2 = document.createElement('span');
     tag2.textContent = project.language || 'Code';
 
-    meta.appendChild(tag1);
-    meta.appendChild(tag2);
+    meta.append(tag1, tag2);
 
     const links = document.createElement('div');
     links.className = 'project-links';
 
-    const repoLink = document.createElement('a');
-    repoLink.href = project.html_url;
-    repoLink.target = '_blank';
-    repoLink.rel = 'noreferrer';
-    repoLink.textContent = 'GitHub';
+    const repo = document.createElement('a');
+    repo.href = project.html_url;
+    repo.target = '_blank';
+    repo.rel = 'noreferrer';
+    repo.textContent = 'GitHub';
+    repo.className = 'primary-link';
 
-    const demoLink = document.createElement('a');
-    demoLink.href = project.homepage || project.html_url;
-    demoLink.target = '_blank';
-    demoLink.rel = 'noreferrer';
-    demoLink.textContent = project.homepage ? 'Live Demo' : 'Project';
-    demoLink.classList.add('secondary');
+    const demo = document.createElement('a');
+    demo.href = project.homepage || project.html_url;
+    demo.target = '_blank';
+    demo.rel = 'noreferrer';
+    demo.textContent = project.homepage ? 'Live Demo' : 'Open';
 
-    links.appendChild(repoLink);
-    links.appendChild(demoLink);
+    links.append(repo, demo);
 
-    card.appendChild(top);
-    card.appendChild(description);
-    card.appendChild(meta);
-    card.appendChild(links);
+    card.append(head, description, meta, links);
     projectGrid.appendChild(card);
   });
+
+  attachRevealEffects();
 }
 
 async function loadProjects() {
   try {
-    const res = await fetch('https://api.github.com/users/SaraSa3ed/repos?per_page=100');
-    const data = await res.json();
+    const response = await fetch('https://api.github.com/users/SaraSa3ed/repos?per_page=100');
+    const data = await response.json();
 
     if (!Array.isArray(data)) {
-      throw new Error('GitHub API returned invalid data');
+      throw new Error('GitHub API failure');
     }
 
     const repos = data
@@ -106,7 +102,7 @@ async function loadProjects() {
       finalProjects.map((repo) => ({
         name: repo.name,
         description:
-          repo.description || 'Project built with a focus on modern user experiences and scalable engineering.',
+          repo.description || 'A project focused on user experience, architecture, and scalable development.',
         language: repo.language || 'Code',
         html_url: repo.html_url,
         homepage: repo.homepage || ''
@@ -117,4 +113,22 @@ async function loadProjects() {
   }
 }
 
+function attachRevealEffects() {
+  const elements = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  elements.forEach((element) => observer.observe(element));
+}
+
+attachRevealEffects();
 loadProjects();

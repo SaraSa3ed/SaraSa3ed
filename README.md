@@ -1,4 +1,4 @@
-# Hi, I'm Sara Saeed ElSyed 👋
+# Hi, I'm Sara Saeed El-Sayed 👋
 
 <div align="center">
 

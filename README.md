@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Node.js+%7C+React+Specialist;Python+%7C+Flutter+Developer;Building+Scalable+Digital+Products" alt="Typing SVM" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Node.js+%7C+React+Specialist;Building+Scalable+Applications" alt="Typing SVG" />
 
   [![GitHub followers](https://img.shields.io/github/followers/SaraSa3ed?style=social)](https://github.com/SaraSa3ed)
   [![GitHub stars](https://img.shields.io/github/stars/SaraSa3ed?style=social)](https://github.com/SaraSa3ed)
@@ -22,7 +22,7 @@
 
 ## About Me
 
-I'm a passionate Full Stack Developer with a strong focus on building reliable web applications, APIs, and modern digital experiences. My expertise spans frontend engineering, backend architecture, mobile development, and clean software design.
+I'm a passionate Full Stack Developer with a strong focus on building reliable web applications, APIs, and modern digital experiences. My expertise spans frontend engineering, backend architecture, and mobile app development.
 
 I enjoy turning ideas into practical products by combining technical depth, product thinking, and elegant implementation.
 
@@ -85,58 +85,100 @@ I enjoy turning ideas into practical products by combining technical depth, prod
 
 ## Featured Projects
 
-### 1. E-Commerce Platform
-Advanced online store built for scale and user experience.
+### Frontend & Full-Stack Projects (React + TypeScript)
 
-- Tech Stack: React, Node.js, Express, MongoDB, Stripe
-- Features:
-  - Product filtering and advanced search
-  - Secure payment integration
-  - Role-based authentication
-  - Admin dashboard and analytics
-  - Optimized performance and responsive UI
+#### 1. **Café Restaurant Hub** 🍽️
+A comprehensive management system for café restaurants with an intuitive interface.
+- **Repository:** [MahmoudSaberbrisha/cafe-restaurant-hub](https://github.com/MahmoudSaberbrisha/cafe-restaurant-hub)
+- **Tech Stack:** React, TypeScript (98.1%), CSS
+- **Features:**
+  - Restaurant management
+  - Menu management
+  - Order tracking
+  - Customer experience optimization
 
-### 2. Real-Time Chat Application
-Modern messaging app with collaborative communication features.
+#### 2. **Dr. White UI** 🏥
+Modern, professional user interface for healthcare management system.
+- **Repository:** [MahmoudSaberbrisha/dr-white-ui](https://github.com/MahmoudSaberbrisha/dr-white-ui)
+- **Tech Stack:** React, TypeScript (99.6%)
+- **Features:**
+  - Clean medical UI
+  - Healthcare dashboard
+  - Patient-centric design
+  - Responsive layout
 
-- Tech Stack: React, Node.js, Socket.io, MongoDB
-- Features:
-  - Real-time messaging
-  - Group chats
-  - User presence indicators
-  - Message history and search
-  - File sharing support
+#### 3. **Motor Match System** 🚗
+Advanced matching system for automotive services with real-time filtering.
+- **Repository:** [MahmoudSaberbrisha/motor-match-system](https://github.com/MahmoudSaberbrisha/motor-match-system)
+- **Tech Stack:** React, TypeScript (96.5%), CSS
+- **Features:**
+  - Real-time vehicle matching
+  - Advanced filtering
+  - Performance optimization
+  - Scalable architecture
 
-### 3. Task Management System
-A productivity dashboard for teams managing projects and tasks efficiently.
+#### 4. **Car Branch Manager** 🏢
+Centralized management system for car dealership branches.
+- **Repository:** [MahmoudSaberbrisha/car-branch-manager](https://github.com/MahmoudSaberbrisha/car-branch-manager)
+- **Tech Stack:** React, TypeScript (96.7%), CSS
+- **Features:**
+  - Branch operations management
+  - Inventory tracking
+  - Sales analytics
+  - Multi-branch support
 
-- Tech Stack: React, NestJS, PostgreSQL, Docker
-- Features:
+#### 5. **Sig Auto Showcase** ✨
+Interactive showcase platform for automotive products with modern design.
+- **Repository:** [MahmoudSaberbrisha/sig-auto-showcase](https://github.com/MahmoudSaberbrisha/sig-auto-showcase)
+- **Tech Stack:** React, TypeScript (97.1%), CSS
+- **Features:**
+  - Product display
+  - Dynamic UI components
+  - Performance-optimized
+  - Modern design patterns
+
+#### 6. **One Million Project** 📊
+Large-scale full-stack application with comprehensive features.
+- **Repository:** [MahmoudSaberbrisha/onemillion](https://github.com/MahmoudSaberbrisha/onemillion)
+- **Tech Stack:** React, TypeScript (84.5%), JavaScript, Node.js
+- **Features:**
+  - Scalable architecture
+  - API integration
+  - Data management
+  - Analytics dashboard
+
+#### 7. **Company Management System** 🏭
+Professional company management and coordination platform.
+- **Repository:** [SaraSa3ed/campany](https://github.com/SaraSa3ed/campany)
+- **Tech Stack:** React, TypeScript (67.5%), JavaScript, CSS
+- **Features:**
+  - Employee management
+  - Project tracking
+  - Resource allocation
   - Team collaboration
-  - Task tracking
-  - Notifications
-  - Custom permission model
-  - Dashboard analytics
 
-### 4. Flutter Mobile App
-Cross-platform mobile app designed for usability and performance.
+#### 8. **Clinic Management System** 🏥
+Complete healthcare facility management solution.
+- **Repository:** [SaraSa3ed/clinic](https://github.com/SaraSa3ed/clinic)
+- **Tech Stack:** React, TypeScript (87.6%), JavaScript, Node.js
+- **Features:**
+  - Patient management
+  - Appointment scheduling
+  - Medical records
+  - Staff coordination
 
-- Tech Stack: Flutter, Dart, Firebase
-- Features:
-  - Clean UI/UX
-  - Push notifications
-  - Authentication
-  - Offline-friendly experience
+### Backend & API Projects
 
-### 5. Python Automation System
-Backend automation platform for processing and managing structured data efficiently.
-
-- Tech Stack: Python, Flask, PostgreSQL, Redis
-- Features:
-  - Automated workflows
-  - Scheduled tasks
-  - Data management endpoints
-  - Monitoring and analytics
+#### 9. **Dr. White API** 🔌
+RESTful backend API for healthcare management system.
+- **Repository:** [MahmoudSaberbrisha/dr-white-api](https://github.com/MahmoudSaberbrisha/dr-white-api)
+- **Tech Stack:** Node.js (54.8%), PowerShell (45.2%)
+- **Features:**
+  - Medical data management
+  - API endpoints
+  - Authentication & authorization
+  - Database integration
+  - Secure health records handling
 
 ---
 
@@ -167,17 +209,20 @@ Backend automation platform for processing and managing structured data efficien
 - Database Design and Optimization
 - Clean Code and Maintainable Architecture
 - Team Collaboration and Problem Solving
+- System Architecture & Design
+- API Development & Integration
 
 ---
 
 ## Why Work With Me
 
 I bring a combination of:
-- Technical depth
-- Product thinking
-- Clean coding practices
-- Reliable delivery
+- Technical depth and expertise
+- Product thinking and strategic planning
+- Clean coding practices and best practices
+- Reliable delivery and quality assurance
 - Strong communication and collaboration
+- Proven track record across diverse projects
 
 I enjoy building solutions that are not only functional but also elegant, scalable, and easy to maintain.
 
@@ -192,6 +237,7 @@ I am continuously improving my skills in:
 - Performance Optimization
 - Modern Frontend Patterns
 - AI & Automation Integration
+- Advanced backend architectures
 
 ---
 
@@ -202,6 +248,7 @@ I'm passionate about:
 - Contributing to developer communities
 - Sharing technical knowledge
 - Learning from real-world engineering challenges
+- Open source contributions
 
 ---
 
@@ -223,6 +270,7 @@ I believe in:
 - Solving real user problems
 - Building experiences people enjoy using
 - Constantly improving and learning
+- Delivering value with every line of code
 
 ---
 

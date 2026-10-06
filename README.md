@@ -8,9 +8,8 @@
 
   [![GitHub followers](https://img.shields.io/github/followers/SaraSa3ed?style=social&logo=github)](https://github.com/SaraSa3ed)
   [![GitHub stars](https://img.shields.io/github/stars/SaraSa3ed?style=social&logo=github)](https://github.com/SaraSa3ed)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/yourprofile)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9C27B0?style=flat&logo=firefox)](https://yourportfolio.com)
-  [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:sara@example.com)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9C27B0?style=flat&logo=firefox)](https://sarasa3ed.github.io/SaraSa3ed/)
+  [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:sarasa3ed110@gmail.com)
 
   <br/>
 
@@ -533,7 +532,7 @@ I'm passionate about:
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-sara%40example.com-EA4335?style=for-the-badge&logo=gmail)](mailto:sarasa3ed110@gmail.com)
+[![Email](https://img.shields.io/badge/Email-sarasa3ed110@gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:sarasa3ed110@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-SaraSa3ed-181717?style=for-the-badge&logo=github)](https://github.com/SaraSa3ed)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9C27B0?style=for-the-badge&logo=firefox)](https://sarasa3ed.github.io/SaraSa3ed/)
 

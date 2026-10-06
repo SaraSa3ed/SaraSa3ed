@@ -533,10 +533,9 @@ I'm passionate about:
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-sara%40example.com-EA4335?style=for-the-badge&logo=gmail)](mailto:sara@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sara%20Saeed-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![Email](https://img.shields.io/badge/Email-sara%40example.com-EA4335?style=for-the-badge&logo=gmail)](mailto:sarasa3ed110@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-SaraSa3ed-181717?style=for-the-badge&logo=github)](https://github.com/SaraSa3ed)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9C27B0?style=for-the-badge&logo=firefox)](https://yourportfolio.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9C27B0?style=for-the-badge&logo=firefox)](https://sarasa3ed.github.io/SaraSa3ed/)
 
 </div>
 

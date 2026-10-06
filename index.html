@@ -569,6 +569,9 @@
       // Initial render
       renderProjects();
 
+      // Re-attach reveal effects after projects are rendered
+      attachRevealEffects();
+
       // Smooth scroll for navigation
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
